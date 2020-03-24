@@ -33,20 +33,20 @@ Some simple explaination of each term can be found in the following table. (refe
 </p> </td>
         </tr>
       <tr>
-            <td align="center"> </td>
-            <td align="Left"> </td>
+            <td align="center">HCI</td>
+          <td align="Left">It provides <b>communication between controller and host</b> through standard interface types. This HCI layer can be implemented either using API or by interfaces such as UART/SPI/USB. Standard HCI commands and events are defined in the bluetooth specifications.</td>
         </tr>
       <tr>
-            <td align="center"> </td>
-            <td align="Left"> </td>
+            <td align="center">L2CAP</td>
+          <td align="Left">This layer offers <b>data encapsulation</b> services to upper layers. This allows logical end to end data communication.</td>
         </tr>
       <tr>
-            <td align="center"> </td>
-            <td align="Left"> </td>
+            <td align="center">SMP</td>
+          <td align="Left">This security Manager layer provides methods for <b>device pairing</b> and <b>key distributions</b>. It offers services to other protocol stack layers in order to securely connect and exchange data between BLE devices.</td>
         </tr>
       <tr>
-            <td align="center"> </td>
-            <td align="Left"> </td>
+            <td align="center">GAP</td>
+            <td align="Left">This layer directly interfaces with application layer and/or profiles on it. It handles <b>device discovery</b> and <b>connection related services</b> for BLE device. It also takes care of <b>initiation of security features</b>.</td>
         </tr>
       <tr>
             <td align="center"> </td>
