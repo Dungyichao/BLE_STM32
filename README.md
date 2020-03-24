@@ -9,6 +9,60 @@ A very good reading resource is in the following link:
 <p align="center">
 <img src="/img/BLE_Structure.JPG" height="80%" width="80%"> 
 </p> 
+Some simple explaination of each term can be found in the following table. (reference
+[https://www.rfwireless-world.com/Terminology/BLE-Protocol-Stack-Architecture.html](https://www.rfwireless-world.com/Terminology/BLE-Protocol-Stack-Architecture.html)
+)
+<p align="center">
+<table>
+    <thead>
+        <tr>
+            <th align="center">Layer</th>
+            <th align="center">Detail</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">Physical Layer</td>
+            <td align="Left">* The transmitter uses GFSK modulation and operates at unlicensed 2.4 GHz frequency band.<br /> * Using this PHY layer, BLE offers data rates of 1 Mbps (Bluetooth v4.2)/2 Mbps (Bluetooth v5.0).<br /> * It uses frequency hopping transceiver.<br /> * Two modulation schemes are specified to deliver 1 Msym/s and 2 Msym/s.<br /> * Two PHY layer variants are specified viz. uncoded and coded.<br /> * A Time Division Duplex (TDD) topology is employed in both of the PHY modes.</td>
+        </tr>
+        <tr>
+            <td align="center">Link Layer</td>
+            <td align="Left">It is responsible for advertising, scanning, and creating/maintaining connections. The role of BLE devices changes in peer to peer (i.e. Unicast) or broadcast modes. The common roles are Advertiser/Scanner (Initiator), Slave/Master or Broadcaster/Observer. Link layer states are defined in the figure below.<br /> <p align="center">
+<img src="/img/BLE-States.JPG" height="80%" width="80%"> 
+</p> </td>
+        </tr>
+      <tr>
+            <td align="center"> </td>
+            <td align="Left"> </td>
+        </tr>
+      <tr>
+            <td align="center"> </td>
+            <td align="Left"> </td>
+        </tr>
+      <tr>
+            <td align="center"> </td>
+            <td align="Left"> </td>
+        </tr>
+      <tr>
+            <td align="center"> </td>
+            <td align="Left"> </td>
+        </tr>
+      <tr>
+            <td align="center"> </td>
+            <td align="Left"> </td>
+        </tr>
+      <tr>
+            <td align="center"> </td>
+            <td align="Left"> </td>
+        </tr>
+      <tr>
+            <td align="center"> </td>
+            <td align="Left"> </td>
+        </tr>
+    </tbody>
+</table>
+</p>
+
 The three separate layers of the protocol and the standardized interface make it possible to implement the Host and Controller on different platforms. 
 
 The following table is the files that we are going to use to program in BLE chip.
