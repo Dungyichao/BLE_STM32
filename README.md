@@ -64,7 +64,7 @@ Some simple explaination of each term can be found in the following table. (refe
 </table>
 </p>
 
-The three separate layers of the protocol and the standardized interface make it possible to implement the Host and Controller on different platforms. The two following configurations are commonly used:
+The three separate layers of the protocol and the standardized interface make it possible to implement the Host and Controller on different platforms. The following configurations are commonly used:
 <p align="center">
 <table>
     <thead>
@@ -81,8 +81,11 @@ The three separate layers of the protocol and the standardized interface make it
       <tr>
             <td align="center">Dual-chip</td>
           <td align="Left"><p align="center">
-<img src="/img/chip-configuration.JPG" height="70%" width="70%"> 
-</p> </td>
+<img src="/img/chip-configuration.JPG" height="70%" width="70%"> </p> A. Typically used for cell phone or computer since they have powerful processor. <br />B. The chip for the application can be very samll and low power because the application doesn't need much memory or resources.</td>
+        </tr>
+        <tr>
+            <td align="center">Three-chip</td>
+          <td align="Left">Application, Host, and Controller layer are implemented on three different chip. The Host need two communication interface between Host-Application and Host-Controller. This is a very expensive configuration</td>
         </tr>
     </tbody>
 </table>
