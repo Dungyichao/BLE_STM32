@@ -9,6 +9,7 @@ A very good reading resource is in the following link:
 <p align="center">
 <img src="/img/BLE_Structure.JPG" height="80%" width="80%"> 
 </p> 
+The three separate layers of the protocol and the standardized interface make it possible to implement the Host and Controller on different platforms. 
 
 The following table is the files that we are going to use to program in BLE chip.
 <p align="center">
