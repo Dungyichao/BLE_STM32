@@ -10,3 +10,8 @@ A very good reading resource is in the following link:
 <img src="/img/BLE_Structure.JPG" height="80%" width="80%"> 
 </p> 
 
+The following table is the files that we are going to use to program in BLE chip.
+<p align="center">
+<img src="/img/ACI_file.JPG" height="70%" width="70%"> 
+</p> 
+
