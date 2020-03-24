@@ -80,7 +80,9 @@ The three separate layers of the protocol and the standardized interface make it
         </tr>
       <tr>
             <td align="center">Dual-chip</td>
-          <td align="Left"></td>
+          <td align="Left"><p align="center">
+<img src="/img/chip-configuration.JPG" height="70%" width="70%"> 
+</p> </td>
         </tr>
     </tbody>
 </table>
