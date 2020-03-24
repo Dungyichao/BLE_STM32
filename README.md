@@ -7,7 +7,7 @@ A very good reading resource is in the following link:
 [website](https://novelbits-my.sharepoint.com/personal/mohammad_novelbits_io/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmohammad%5Fnovelbits%5Fio%2FDocuments%2FIntro%20to%20BLE%20e%2Dbook%2FUpdate%2011%2D2018%2FIntro%20to%20Bluetooth%20Low%20Energy%20v1%2E1%2Epdf&parent=%2Fpersonal%2Fmohammad%5Fnovelbits%5Fio%2FDocuments%2FIntro%20to%20BLE%20e%2Dbook%2FUpdate%2011%2D2018&originalPath=aHR0cHM6Ly9ub3ZlbGJpdHMtbXkuc2hhcmVwb2ludC5jb20vOmI6L2cvcGVyc29uYWwvbW9oYW1tYWRfbm92ZWxiaXRzX2lvL0VmamZmVEgxTFZ0TWk3RWw3SGtvMDJBQmNxLTBRb2pjc2VQUktCaTl1MkJPTmc_cnRpbWU9OUNRYlhJYlAxMGc)
 . Here, we only provide some essential knowledge. Let's see the architecture of the BLE in the following image.
 <p align="center">
-<img src="/img/BLE_Structure.JPG" height="80%" width="80%"> 
+<img src="/img/BLE_Structure.JPG" height="60%" width="60%"> 
 </p> 
 Some simple explaination of each term can be found in the following table. (reference
 
@@ -24,7 +24,7 @@ Some simple explaination of each term can be found in the following table. (refe
     <tbody>
         <tr>
             <td align="center">Physical Layer</td>
-            <td align="Left">* The transmitter uses GFSK modulation and operates at unlicensed 2.4 GHz frequency band.<br /> * Using this PHY layer, BLE offers data rates of 1 Mbps (Bluetooth v4.2)/2 Mbps (Bluetooth v5.0).<br /> * It uses frequency hopping transceiver.<br /> * Two modulation schemes are specified to deliver 1 Msym/s and 2 Msym/s.<br /> * Two PHY layer variants are specified viz. uncoded and coded.<br /> * A Time Division Duplex (TDD) topology is employed in both of the PHY modes.</td>
+            <td align="Left">• The transmitter uses GFSK modulation and operates at unlicensed 2.4 GHz frequency band.<br />• Using this PHY layer, BLE offers data rates of 1 Mbps (Bluetooth v4.2)/2 Mbps (Bluetooth v5.0).<br />• It uses frequency hopping transceiver.<br /> • Two modulation schemes are specified to deliver 1 Msym/s and 2 Msym/s.<br /> • Two PHY layer variants are specified viz. uncoded and coded.<br />• A Time Division Duplex (TDD) topology is employed in both of the PHY modes.</td>
         </tr>
         <tr>
             <td align="center">Link Layer</td>
