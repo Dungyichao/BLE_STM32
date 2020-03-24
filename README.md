@@ -28,7 +28,7 @@ Some simple explaination of each term can be found in the following table. (refe
         <tr>
             <td align="center">Link Layer</td>
             <td align="Left">It is responsible for advertising, scanning, and creating/maintaining connections. The role of BLE devices changes in peer to peer (i.e. Unicast) or broadcast modes. The common roles are Advertiser/Scanner (Initiator), Slave/Master or Broadcaster/Observer. Link layer states are defined in the figure below.<br /> <p align="center">
-<img src="/img/BLE-States.JPG" height="80%" width="80%"> 
+<img src="/img/BLE-States.jpg" height="80%" width="80%"> 
 </p> </td>
         </tr>
       <tr>
