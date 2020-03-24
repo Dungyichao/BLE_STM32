@@ -106,9 +106,7 @@ The three separate layers of the protocol and the standardized interface make it
         <tr>
             <td align="center">Peripherals</td>
           <td align="Left">A peripheral device is a device that announces its presence by sending out advertising
-packets and accepts a connection from another BLE device (the BLE central). <br /><br /> • <b>Broadcaster:</b> a device that sends out
-advertising packets as well, but with one difference from a peripheral: the broadcaster does
-              not allow a connection from a central device. <br /> • <b>Observer:</b> only discovers advertising devices, but does not have the capability to initiate a connection with the advertiser. </td>
+packets and accepts a connection from another BLE device (the BLE central).</td>
         </tr>
       <tr>
             <td align="center">Centrals</td>
