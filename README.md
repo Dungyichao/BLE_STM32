@@ -10,8 +10,8 @@ A very good reading resource is in the following link:
 <img src="/img/BLE_Structure.JPG" height="80%" width="80%"> 
 </p> 
 Some simple explaination of each term can be found in the following table. (reference
-[https://www.rfwireless-world.com/Terminology/BLE-Protocol-Stack-Architecture.html](https://www.rfwireless-world.com/Terminology/BLE-Protocol-Stack-Architecture.html)
 
+[https://www.rfwireless-world.com/Terminology/BLE-Protocol-Stack-Architecture.html](https://www.rfwireless-world.com/Terminology/BLE-Protocol-Stack-Architecture.html)
 )
 <p align="center">
 <table>
