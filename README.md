@@ -49,16 +49,16 @@ Some simple explaination of each term can be found in the following table. (refe
             <td align="Left">This layer directly interfaces with application layer and/or profiles on it. It handles <b>device discovery</b> and <b>connection related services</b> for BLE device. It also takes care of <b>initiation of security features</b>.</td>
         </tr>
       <tr>
-            <td align="center"> </td>
-            <td align="Left"> </td>
+            <td align="center">GATT</td>
+            <td align="Left">This layer is service framework which specifies sub-procedures to use ATT. Data communications between two BLE devices are handled through these sub-procedures. The applications and/or profiles will use GATT directly.</td>
         </tr>
       <tr>
-            <td align="center"> </td>
-            <td align="Left"> </td>
+            <td align="center">ATT</td>
+            <td align="Left">This layer allows BLE device to expose certain pieces of data or attributes.</td>
         </tr>
       <tr>
-            <td align="center"> </td>
-            <td align="Left"> </td>
+            <td align="center">Application Layer</td>
+            <td align="Left">• The BLE protocol stack layers interact with applications and profiles as desired. Application interoperability in the Bluetooth system is accomplished by Bluetooth profiles.<br />• The profile defines the vertical interactions between the layers as well as the peer-to-peer interactions of specific layers between devices.<br />• A profile composed of one or more services to address particular use case. A service consists of characteristics or references to other services.<br />• Any profiles/applications run on top of GAP/GATT layers of BLE protocol stack. It handles device discovery and connection related services for the BLE device.</td>
         </tr>
     </tbody>
 </table>
