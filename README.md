@@ -94,7 +94,7 @@ The three separate layers of the protocol and the standardized interface make it
 </table>
 </p>
 
-### 1.3  BLE Peripherals and Centrals
+### 1.3  BLE type of Device
 <table>
     <thead>
         <tr>
@@ -106,13 +106,21 @@ The three separate layers of the protocol and the standardized interface make it
         <tr>
             <td align="center">Peripherals</td>
           <td align="Left">A peripheral device is a device that announces its presence by sending out advertising
-packets and accepts a connection from another BLE device (the BLE central). <br /><br /> • broadcaster: a device that sends out
+packets and accepts a connection from another BLE device (the BLE central). <br /><br /> • <b>Broadcaster:</b> a device that sends out
 advertising packets as well, but with one difference from a peripheral: the broadcaster does
-not allow a connection from a central device. <br /> • observer: only discovers advertising devices, but does not have the capability to initiate a connection with the advertiser. </td>
+              not allow a connection from a central device. <br /> • <b>Observer:</b> only discovers advertising devices, but does not have the capability to initiate a connection with the advertiser. </td>
         </tr>
       <tr>
             <td align="center">Centrals</td>
           <td align="Left"> a device that discovers and listens to other BLE devices that are advertising. It is also capable of establishing a connection to BLE peripherals (usually multiple at the same time).</td>
+        </tr>
+        <tr>
+            <td align="center">Broadcaster</td>
+          <td align="Left">a device that sends out advertising packets as well, but with one difference from a peripheral: the broadcaster does not allow a connection from a central device.</td>
+        </tr>
+        <tr>
+            <td align="center">Observer</td>
+          <td align="Left">Only discovers advertising devices, but does not have the capability to initiate a connection with the advertiser.</td>
         </tr>
     </tbody>
 </table>
