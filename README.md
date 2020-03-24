@@ -5,7 +5,9 @@ A very good reading resource is in the following link:
 [The Basics of Bluetooth Low Energy](https://www.novelbits.io/basics-bluetooth-low-energy/)
 . You can also download the free ebook from the 
 [website](https://novelbits-my.sharepoint.com/personal/mohammad_novelbits_io/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmohammad%5Fnovelbits%5Fio%2FDocuments%2FIntro%20to%20BLE%20e%2Dbook%2FUpdate%2011%2D2018%2FIntro%20to%20Bluetooth%20Low%20Energy%20v1%2E1%2Epdf&parent=%2Fpersonal%2Fmohammad%5Fnovelbits%5Fio%2FDocuments%2FIntro%20to%20BLE%20e%2Dbook%2FUpdate%2011%2D2018&originalPath=aHR0cHM6Ly9ub3ZlbGJpdHMtbXkuc2hhcmVwb2ludC5jb20vOmI6L2cvcGVyc29uYWwvbW9oYW1tYWRfbm92ZWxiaXRzX2lvL0VmamZmVEgxTFZ0TWk3RWw3SGtvMDJBQmNxLTBRb2pjc2VQUktCaTl1MkJPTmc_cnRpbWU9OUNRYlhJYlAxMGc)
-. Here, we only provide some essential knowledge. Let's see the architecture of the BLE in the following image.
+. Here, we only provide some essential knowledge. 
+### 1.1 BLE Structure
+Let's see the architecture of the BLE in the following image.
 <p align="center">
 <img src="/img/BLE_Structure.JPG" height="50%" width="50%"> 
 </p> 
@@ -64,6 +66,7 @@ Some simple explaination of each term can be found in the following table. (refe
 </table>
 </p>
 
+### 1.2 Chip Configuration
 The three separate layers of the protocol and the standardized interface make it possible to implement the Host and Controller on different platforms. The following configurations are commonly used:
 <p align="center">
 <table>
@@ -91,6 +94,29 @@ The three separate layers of the protocol and the standardized interface make it
 </table>
 </p>
 
+### 1.3  BLE Peripherals and Centrals
+<table>
+    <thead>
+        <tr>
+            <th align="center">Item</th>
+            <th align="center">Detail</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">Peripherals</td>
+          <td align="Left">A peripheral device is a device that announces its presence by sending out advertising
+packets and accepts a connection from another BLE device (the BLE central). <br /><br /> • broadcaster: a device that sends out
+advertising packets as well, but with one difference from a peripheral: the broadcaster does
+not allow a connection from a central device. <br /> • observer: only discovers advertising devices, but does not have the capability to initiate a connection with the advertiser. </td>
+        </tr>
+      <tr>
+            <td align="center">Centrals</td>
+          <td align="Left"> a device that discovers and listens to other BLE devices that are advertising. It is also capable of establishing a connection to BLE peripherals (usually multiple at the same time).</td>
+        </tr>
+    </tbody>
+</table>
+</p>
 
 The following table is the files that we are going to use to program in BLE chip.
 <p align="center">
